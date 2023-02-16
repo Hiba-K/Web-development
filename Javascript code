@@ -1,0 +1,5 @@
+function displayGreeting() {
+	var greeting = document.getElementById("greeting");
+	greeting.style.display = "block";
+	greeting.innerHTML = "Hello, there! How are you doing today?";
+}
